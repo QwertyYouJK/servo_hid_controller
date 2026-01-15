@@ -1,0 +1,11 @@
+Byte 0 | Byte 1 | Byte 2
+
+0x00   | angle in degree  (set counterclockwise angle [0, 135])
+
+0x01   | angle in degree  (set clockwise angle [0, 135])
+
+0x02   | angle in degree  (ADD counterclockwise angle [0, 270])
+
+0x03   | angle in degree  (ADD clockwise angle [0, 270])
+
+0x10   |     any          (Re-centre servo)
