@@ -12,9 +12,12 @@ A Python Tkinter GUI running on a PC sends angle and incremental motion commands
 - Actuator: DS3218 Digital Servo
 
 ## Repository structure
+```
 pc/
   └─ gui/              # Python GUI (USB HID host)
 firmware/
   └─ stm32/            # STM32CubeMX / CubeIDE project
 docs/
   └─ hid_protocol.md   # HID report format and commands
+
+```
