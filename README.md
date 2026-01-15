@@ -4,6 +4,8 @@ A Python GUI that controls a DS3218 servo motor over USB HID using STM32F103 mic
 ## Project overview
 This project implements a USB HID–based control system for a servo motor.
 A Python Tkinter GUI running on a PC sends angle and incremental motion commands to an STM32 microcontroller over USB HID. The STM32 firmware decodes HID reports and drives the servo accordingly.
+![GUI](/docs/GUI.png)
+
 
 ## System overview
 - Windows Host: Python Tkinter GUI
